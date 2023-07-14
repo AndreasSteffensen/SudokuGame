@@ -129,8 +129,7 @@ namespace Sudoku
             this.richTextBox1.Size = new System.Drawing.Size(40, 40);
             this.richTextBox1.TabIndex = 0;
             this.richTextBox1.Text = "";
-            this.richTextBox1.UseWaitCursor = true;
-            this.richTextBox1.TextChanged += new System.EventHandler(this.richTextBox1_TextChanged);
+            this.richTextBox1.TextChanged += new System.EventHandler(this.ValueChanged);
             // 
             // richTextBox2
             // 
@@ -145,7 +144,7 @@ namespace Sudoku
             this.richTextBox2.Size = new System.Drawing.Size(40, 40);
             this.richTextBox2.TabIndex = 1;
             this.richTextBox2.Text = "";
-            this.richTextBox2.UseWaitCursor = true;
+            this.richTextBox2.TextChanged += new System.EventHandler(this.ValueChanged);
             // 
             // richTextBox3
             // 
@@ -160,7 +159,7 @@ namespace Sudoku
             this.richTextBox3.Size = new System.Drawing.Size(40, 40);
             this.richTextBox3.TabIndex = 2;
             this.richTextBox3.Text = "";
-            this.richTextBox3.UseWaitCursor = true;
+            this.richTextBox3.TextChanged += new System.EventHandler(this.ValueChanged);
             // 
             // richTextBox4
             // 
@@ -175,7 +174,7 @@ namespace Sudoku
             this.richTextBox4.Size = new System.Drawing.Size(40, 40);
             this.richTextBox4.TabIndex = 3;
             this.richTextBox4.Text = "";
-            this.richTextBox4.UseWaitCursor = true;
+            this.richTextBox4.TextChanged += new System.EventHandler(this.ValueChanged);
             // 
             // richTextBox5
             // 
@@ -190,7 +189,7 @@ namespace Sudoku
             this.richTextBox5.Size = new System.Drawing.Size(40, 40);
             this.richTextBox5.TabIndex = 4;
             this.richTextBox5.Text = "";
-            this.richTextBox5.UseWaitCursor = true;
+            this.richTextBox5.TextChanged += new System.EventHandler(this.ValueChanged);
             // 
             // richTextBox6
             // 
@@ -205,7 +204,7 @@ namespace Sudoku
             this.richTextBox6.Size = new System.Drawing.Size(40, 40);
             this.richTextBox6.TabIndex = 5;
             this.richTextBox6.Text = "";
-            this.richTextBox6.UseWaitCursor = true;
+            this.richTextBox6.TextChanged += new System.EventHandler(this.ValueChanged);
             // 
             // richTextBox7
             // 
@@ -220,7 +219,7 @@ namespace Sudoku
             this.richTextBox7.Size = new System.Drawing.Size(40, 40);
             this.richTextBox7.TabIndex = 6;
             this.richTextBox7.Text = "";
-            this.richTextBox7.UseWaitCursor = true;
+            this.richTextBox7.TextChanged += new System.EventHandler(this.ValueChanged);
             // 
             // richTextBox8
             // 
@@ -235,7 +234,7 @@ namespace Sudoku
             this.richTextBox8.Size = new System.Drawing.Size(40, 40);
             this.richTextBox8.TabIndex = 7;
             this.richTextBox8.Text = "";
-            this.richTextBox8.UseWaitCursor = true;
+            this.richTextBox8.TextChanged += new System.EventHandler(this.ValueChanged);
             // 
             // richTextBox9
             // 
@@ -250,7 +249,7 @@ namespace Sudoku
             this.richTextBox9.Size = new System.Drawing.Size(40, 40);
             this.richTextBox9.TabIndex = 8;
             this.richTextBox9.Text = "";
-            this.richTextBox9.UseWaitCursor = true;
+            this.richTextBox9.TextChanged += new System.EventHandler(this.ValueChanged);
             // 
             // richTextBox10
             // 
@@ -265,7 +264,7 @@ namespace Sudoku
             this.richTextBox10.Size = new System.Drawing.Size(40, 40);
             this.richTextBox10.TabIndex = 9;
             this.richTextBox10.Text = "";
-            this.richTextBox10.UseWaitCursor = true;
+            this.richTextBox10.TextChanged += new System.EventHandler(this.ValueChanged);
             // 
             // richTextBox11
             // 
@@ -280,7 +279,7 @@ namespace Sudoku
             this.richTextBox11.Size = new System.Drawing.Size(40, 40);
             this.richTextBox11.TabIndex = 10;
             this.richTextBox11.Text = "";
-            this.richTextBox11.UseWaitCursor = true;
+            this.richTextBox11.TextChanged += new System.EventHandler(this.ValueChanged);
             // 
             // richTextBox12
             // 
@@ -295,7 +294,7 @@ namespace Sudoku
             this.richTextBox12.Size = new System.Drawing.Size(40, 40);
             this.richTextBox12.TabIndex = 11;
             this.richTextBox12.Text = "";
-            this.richTextBox12.UseWaitCursor = true;
+            this.richTextBox12.TextChanged += new System.EventHandler(this.ValueChanged);
             // 
             // richTextBox13
             // 
@@ -310,7 +309,7 @@ namespace Sudoku
             this.richTextBox13.Size = new System.Drawing.Size(40, 40);
             this.richTextBox13.TabIndex = 12;
             this.richTextBox13.Text = "";
-            this.richTextBox13.UseWaitCursor = true;
+            this.richTextBox13.TextChanged += new System.EventHandler(this.ValueChanged);
             // 
             // richTextBox14
             // 
@@ -325,7 +324,7 @@ namespace Sudoku
             this.richTextBox14.Size = new System.Drawing.Size(40, 40);
             this.richTextBox14.TabIndex = 13;
             this.richTextBox14.Text = "";
-            this.richTextBox14.UseWaitCursor = true;
+            this.richTextBox14.TextChanged += new System.EventHandler(this.ValueChanged);
             // 
             // richTextBox15
             // 
@@ -340,7 +339,7 @@ namespace Sudoku
             this.richTextBox15.Size = new System.Drawing.Size(40, 40);
             this.richTextBox15.TabIndex = 14;
             this.richTextBox15.Text = "";
-            this.richTextBox15.UseWaitCursor = true;
+            this.richTextBox15.TextChanged += new System.EventHandler(this.ValueChanged);
             // 
             // richTextBox16
             // 
@@ -355,7 +354,7 @@ namespace Sudoku
             this.richTextBox16.Size = new System.Drawing.Size(40, 40);
             this.richTextBox16.TabIndex = 15;
             this.richTextBox16.Text = "";
-            this.richTextBox16.UseWaitCursor = true;
+            this.richTextBox16.TextChanged += new System.EventHandler(this.ValueChanged);
             // 
             // richTextBox17
             // 
@@ -370,7 +369,7 @@ namespace Sudoku
             this.richTextBox17.Size = new System.Drawing.Size(40, 40);
             this.richTextBox17.TabIndex = 16;
             this.richTextBox17.Text = "";
-            this.richTextBox17.UseWaitCursor = true;
+            this.richTextBox17.TextChanged += new System.EventHandler(this.ValueChanged);
             // 
             // richTextBox18
             // 
@@ -385,7 +384,7 @@ namespace Sudoku
             this.richTextBox18.Size = new System.Drawing.Size(40, 40);
             this.richTextBox18.TabIndex = 17;
             this.richTextBox18.Text = "";
-            this.richTextBox18.UseWaitCursor = true;
+            this.richTextBox18.TextChanged += new System.EventHandler(this.ValueChanged);
             // 
             // richTextBox19
             // 
@@ -400,7 +399,7 @@ namespace Sudoku
             this.richTextBox19.Size = new System.Drawing.Size(40, 40);
             this.richTextBox19.TabIndex = 18;
             this.richTextBox19.Text = "";
-            this.richTextBox19.UseWaitCursor = true;
+            this.richTextBox19.TextChanged += new System.EventHandler(this.ValueChanged);
             // 
             // richTextBox20
             // 
@@ -415,7 +414,7 @@ namespace Sudoku
             this.richTextBox20.Size = new System.Drawing.Size(40, 40);
             this.richTextBox20.TabIndex = 19;
             this.richTextBox20.Text = "";
-            this.richTextBox20.UseWaitCursor = true;
+            this.richTextBox20.TextChanged += new System.EventHandler(this.ValueChanged);
             // 
             // richTextBox21
             // 
@@ -430,7 +429,7 @@ namespace Sudoku
             this.richTextBox21.Size = new System.Drawing.Size(40, 40);
             this.richTextBox21.TabIndex = 20;
             this.richTextBox21.Text = "";
-            this.richTextBox21.UseWaitCursor = true;
+            this.richTextBox21.TextChanged += new System.EventHandler(this.ValueChanged);
             // 
             // richTextBox22
             // 
@@ -445,7 +444,7 @@ namespace Sudoku
             this.richTextBox22.Size = new System.Drawing.Size(40, 40);
             this.richTextBox22.TabIndex = 21;
             this.richTextBox22.Text = "";
-            this.richTextBox22.UseWaitCursor = true;
+            this.richTextBox22.TextChanged += new System.EventHandler(this.ValueChanged);
             // 
             // richTextBox23
             // 
@@ -460,7 +459,7 @@ namespace Sudoku
             this.richTextBox23.Size = new System.Drawing.Size(40, 40);
             this.richTextBox23.TabIndex = 22;
             this.richTextBox23.Text = "";
-            this.richTextBox23.UseWaitCursor = true;
+            this.richTextBox23.TextChanged += new System.EventHandler(this.ValueChanged);
             // 
             // richTextBox24
             // 
@@ -475,7 +474,7 @@ namespace Sudoku
             this.richTextBox24.Size = new System.Drawing.Size(40, 40);
             this.richTextBox24.TabIndex = 23;
             this.richTextBox24.Text = "";
-            this.richTextBox24.UseWaitCursor = true;
+            this.richTextBox24.TextChanged += new System.EventHandler(this.ValueChanged);
             // 
             // richTextBox25
             // 
@@ -490,7 +489,7 @@ namespace Sudoku
             this.richTextBox25.Size = new System.Drawing.Size(40, 40);
             this.richTextBox25.TabIndex = 24;
             this.richTextBox25.Text = "";
-            this.richTextBox25.UseWaitCursor = true;
+            this.richTextBox25.TextChanged += new System.EventHandler(this.ValueChanged);
             // 
             // richTextBox26
             // 
@@ -505,7 +504,7 @@ namespace Sudoku
             this.richTextBox26.Size = new System.Drawing.Size(40, 40);
             this.richTextBox26.TabIndex = 25;
             this.richTextBox26.Text = "";
-            this.richTextBox26.UseWaitCursor = true;
+            this.richTextBox26.TextChanged += new System.EventHandler(this.ValueChanged);
             // 
             // richTextBox27
             // 
@@ -520,7 +519,7 @@ namespace Sudoku
             this.richTextBox27.Size = new System.Drawing.Size(40, 40);
             this.richTextBox27.TabIndex = 26;
             this.richTextBox27.Text = "";
-            this.richTextBox27.UseWaitCursor = true;
+            this.richTextBox27.TextChanged += new System.EventHandler(this.ValueChanged);
             // 
             // richTextBox28
             // 
@@ -535,7 +534,7 @@ namespace Sudoku
             this.richTextBox28.Size = new System.Drawing.Size(40, 40);
             this.richTextBox28.TabIndex = 27;
             this.richTextBox28.Text = "";
-            this.richTextBox28.UseWaitCursor = true;
+            this.richTextBox28.TextChanged += new System.EventHandler(this.ValueChanged);
             // 
             // richTextBox29
             // 
@@ -550,7 +549,7 @@ namespace Sudoku
             this.richTextBox29.Size = new System.Drawing.Size(40, 40);
             this.richTextBox29.TabIndex = 28;
             this.richTextBox29.Text = "";
-            this.richTextBox29.UseWaitCursor = true;
+            this.richTextBox29.TextChanged += new System.EventHandler(this.ValueChanged);
             // 
             // richTextBox30
             // 
@@ -565,7 +564,7 @@ namespace Sudoku
             this.richTextBox30.Size = new System.Drawing.Size(40, 40);
             this.richTextBox30.TabIndex = 29;
             this.richTextBox30.Text = "";
-            this.richTextBox30.UseWaitCursor = true;
+            this.richTextBox30.TextChanged += new System.EventHandler(this.ValueChanged);
             // 
             // richTextBox31
             // 
@@ -580,7 +579,7 @@ namespace Sudoku
             this.richTextBox31.Size = new System.Drawing.Size(40, 40);
             this.richTextBox31.TabIndex = 30;
             this.richTextBox31.Text = "";
-            this.richTextBox31.UseWaitCursor = true;
+            this.richTextBox31.TextChanged += new System.EventHandler(this.ValueChanged);
             // 
             // richTextBox32
             // 
@@ -595,7 +594,7 @@ namespace Sudoku
             this.richTextBox32.Size = new System.Drawing.Size(40, 40);
             this.richTextBox32.TabIndex = 31;
             this.richTextBox32.Text = "";
-            this.richTextBox32.UseWaitCursor = true;
+            this.richTextBox32.TextChanged += new System.EventHandler(this.ValueChanged);
             // 
             // richTextBox33
             // 
@@ -610,7 +609,7 @@ namespace Sudoku
             this.richTextBox33.Size = new System.Drawing.Size(40, 40);
             this.richTextBox33.TabIndex = 32;
             this.richTextBox33.Text = "";
-            this.richTextBox33.UseWaitCursor = true;
+            this.richTextBox33.TextChanged += new System.EventHandler(this.ValueChanged);
             // 
             // richTextBox34
             // 
@@ -625,7 +624,7 @@ namespace Sudoku
             this.richTextBox34.Size = new System.Drawing.Size(40, 40);
             this.richTextBox34.TabIndex = 33;
             this.richTextBox34.Text = "";
-            this.richTextBox34.UseWaitCursor = true;
+            this.richTextBox34.TextChanged += new System.EventHandler(this.ValueChanged);
             // 
             // richTextBox35
             // 
@@ -640,7 +639,7 @@ namespace Sudoku
             this.richTextBox35.Size = new System.Drawing.Size(40, 40);
             this.richTextBox35.TabIndex = 34;
             this.richTextBox35.Text = "";
-            this.richTextBox35.UseWaitCursor = true;
+            this.richTextBox35.TextChanged += new System.EventHandler(this.ValueChanged);
             // 
             // richTextBox36
             // 
@@ -655,7 +654,7 @@ namespace Sudoku
             this.richTextBox36.Size = new System.Drawing.Size(40, 40);
             this.richTextBox36.TabIndex = 35;
             this.richTextBox36.Text = "";
-            this.richTextBox36.UseWaitCursor = true;
+            this.richTextBox36.TextChanged += new System.EventHandler(this.ValueChanged);
             // 
             // richTextBox37
             // 
@@ -670,7 +669,7 @@ namespace Sudoku
             this.richTextBox37.Size = new System.Drawing.Size(40, 40);
             this.richTextBox37.TabIndex = 36;
             this.richTextBox37.Text = "";
-            this.richTextBox37.UseWaitCursor = true;
+            this.richTextBox37.TextChanged += new System.EventHandler(this.ValueChanged);
             // 
             // richTextBox38
             // 
@@ -685,7 +684,7 @@ namespace Sudoku
             this.richTextBox38.Size = new System.Drawing.Size(40, 40);
             this.richTextBox38.TabIndex = 37;
             this.richTextBox38.Text = "";
-            this.richTextBox38.UseWaitCursor = true;
+            this.richTextBox38.TextChanged += new System.EventHandler(this.ValueChanged);
             // 
             // richTextBox39
             // 
@@ -700,7 +699,7 @@ namespace Sudoku
             this.richTextBox39.Size = new System.Drawing.Size(40, 40);
             this.richTextBox39.TabIndex = 38;
             this.richTextBox39.Text = "";
-            this.richTextBox39.UseWaitCursor = true;
+            this.richTextBox39.TextChanged += new System.EventHandler(this.ValueChanged);
             // 
             // richTextBox40
             // 
@@ -715,7 +714,7 @@ namespace Sudoku
             this.richTextBox40.Size = new System.Drawing.Size(40, 40);
             this.richTextBox40.TabIndex = 39;
             this.richTextBox40.Text = "";
-            this.richTextBox40.UseWaitCursor = true;
+            this.richTextBox40.TextChanged += new System.EventHandler(this.ValueChanged);
             // 
             // richTextBox41
             // 
@@ -730,7 +729,7 @@ namespace Sudoku
             this.richTextBox41.Size = new System.Drawing.Size(40, 40);
             this.richTextBox41.TabIndex = 40;
             this.richTextBox41.Text = "";
-            this.richTextBox41.UseWaitCursor = true;
+            this.richTextBox41.TextChanged += new System.EventHandler(this.ValueChanged);
             // 
             // richTextBox42
             // 
@@ -745,7 +744,7 @@ namespace Sudoku
             this.richTextBox42.Size = new System.Drawing.Size(40, 40);
             this.richTextBox42.TabIndex = 41;
             this.richTextBox42.Text = "";
-            this.richTextBox42.UseWaitCursor = true;
+            this.richTextBox42.TextChanged += new System.EventHandler(this.ValueChanged);
             // 
             // richTextBox43
             // 
@@ -760,7 +759,7 @@ namespace Sudoku
             this.richTextBox43.Size = new System.Drawing.Size(40, 40);
             this.richTextBox43.TabIndex = 42;
             this.richTextBox43.Text = "";
-            this.richTextBox43.UseWaitCursor = true;
+            this.richTextBox43.TextChanged += new System.EventHandler(this.ValueChanged);
             // 
             // richTextBox44
             // 
@@ -775,7 +774,7 @@ namespace Sudoku
             this.richTextBox44.Size = new System.Drawing.Size(40, 40);
             this.richTextBox44.TabIndex = 43;
             this.richTextBox44.Text = "";
-            this.richTextBox44.UseWaitCursor = true;
+            this.richTextBox44.TextChanged += new System.EventHandler(this.ValueChanged);
             // 
             // richTextBox45
             // 
@@ -790,7 +789,7 @@ namespace Sudoku
             this.richTextBox45.Size = new System.Drawing.Size(40, 40);
             this.richTextBox45.TabIndex = 44;
             this.richTextBox45.Text = "";
-            this.richTextBox45.UseWaitCursor = true;
+            this.richTextBox45.TextChanged += new System.EventHandler(this.ValueChanged);
             // 
             // richTextBox46
             // 
@@ -805,7 +804,7 @@ namespace Sudoku
             this.richTextBox46.Size = new System.Drawing.Size(40, 40);
             this.richTextBox46.TabIndex = 45;
             this.richTextBox46.Text = "";
-            this.richTextBox46.UseWaitCursor = true;
+            this.richTextBox46.TextChanged += new System.EventHandler(this.ValueChanged);
             // 
             // richTextBox47
             // 
@@ -820,7 +819,7 @@ namespace Sudoku
             this.richTextBox47.Size = new System.Drawing.Size(40, 40);
             this.richTextBox47.TabIndex = 46;
             this.richTextBox47.Text = "";
-            this.richTextBox47.UseWaitCursor = true;
+            this.richTextBox47.TextChanged += new System.EventHandler(this.ValueChanged);
             // 
             // richTextBox48
             // 
@@ -835,7 +834,7 @@ namespace Sudoku
             this.richTextBox48.Size = new System.Drawing.Size(40, 40);
             this.richTextBox48.TabIndex = 47;
             this.richTextBox48.Text = "";
-            this.richTextBox48.UseWaitCursor = true;
+            this.richTextBox48.TextChanged += new System.EventHandler(this.ValueChanged);
             // 
             // richTextBox49
             // 
@@ -850,7 +849,7 @@ namespace Sudoku
             this.richTextBox49.Size = new System.Drawing.Size(40, 40);
             this.richTextBox49.TabIndex = 48;
             this.richTextBox49.Text = "";
-            this.richTextBox49.UseWaitCursor = true;
+            this.richTextBox49.TextChanged += new System.EventHandler(this.ValueChanged);
             // 
             // richTextBox50
             // 
@@ -865,7 +864,7 @@ namespace Sudoku
             this.richTextBox50.Size = new System.Drawing.Size(40, 40);
             this.richTextBox50.TabIndex = 49;
             this.richTextBox50.Text = "";
-            this.richTextBox50.UseWaitCursor = true;
+            this.richTextBox50.TextChanged += new System.EventHandler(this.ValueChanged);
             // 
             // richTextBox51
             // 
@@ -880,7 +879,7 @@ namespace Sudoku
             this.richTextBox51.Size = new System.Drawing.Size(40, 40);
             this.richTextBox51.TabIndex = 50;
             this.richTextBox51.Text = "";
-            this.richTextBox51.UseWaitCursor = true;
+            this.richTextBox51.TextChanged += new System.EventHandler(this.ValueChanged);
             // 
             // richTextBox52
             // 
@@ -895,7 +894,7 @@ namespace Sudoku
             this.richTextBox52.Size = new System.Drawing.Size(40, 40);
             this.richTextBox52.TabIndex = 51;
             this.richTextBox52.Text = "";
-            this.richTextBox52.UseWaitCursor = true;
+            this.richTextBox52.TextChanged += new System.EventHandler(this.ValueChanged);
             // 
             // richTextBox53
             // 
@@ -910,7 +909,7 @@ namespace Sudoku
             this.richTextBox53.Size = new System.Drawing.Size(40, 40);
             this.richTextBox53.TabIndex = 52;
             this.richTextBox53.Text = "";
-            this.richTextBox53.UseWaitCursor = true;
+            this.richTextBox53.TextChanged += new System.EventHandler(this.ValueChanged);
             // 
             // richTextBox54
             // 
@@ -925,7 +924,7 @@ namespace Sudoku
             this.richTextBox54.Size = new System.Drawing.Size(40, 40);
             this.richTextBox54.TabIndex = 53;
             this.richTextBox54.Text = "";
-            this.richTextBox54.UseWaitCursor = true;
+            this.richTextBox54.TextChanged += new System.EventHandler(this.ValueChanged);
             // 
             // richTextBox55
             // 
@@ -940,7 +939,7 @@ namespace Sudoku
             this.richTextBox55.Size = new System.Drawing.Size(40, 40);
             this.richTextBox55.TabIndex = 54;
             this.richTextBox55.Text = "";
-            this.richTextBox55.UseWaitCursor = true;
+            this.richTextBox55.TextChanged += new System.EventHandler(this.ValueChanged);
             // 
             // richTextBox56
             // 
@@ -955,7 +954,7 @@ namespace Sudoku
             this.richTextBox56.Size = new System.Drawing.Size(40, 40);
             this.richTextBox56.TabIndex = 55;
             this.richTextBox56.Text = "";
-            this.richTextBox56.UseWaitCursor = true;
+            this.richTextBox56.TextChanged += new System.EventHandler(this.ValueChanged);
             // 
             // richTextBox57
             // 
@@ -970,7 +969,7 @@ namespace Sudoku
             this.richTextBox57.Size = new System.Drawing.Size(40, 40);
             this.richTextBox57.TabIndex = 56;
             this.richTextBox57.Text = "";
-            this.richTextBox57.UseWaitCursor = true;
+            this.richTextBox57.TextChanged += new System.EventHandler(this.ValueChanged);
             // 
             // richTextBox58
             // 
@@ -985,7 +984,7 @@ namespace Sudoku
             this.richTextBox58.Size = new System.Drawing.Size(40, 40);
             this.richTextBox58.TabIndex = 57;
             this.richTextBox58.Text = "";
-            this.richTextBox58.UseWaitCursor = true;
+            this.richTextBox58.TextChanged += new System.EventHandler(this.ValueChanged);
             // 
             // richTextBox59
             // 
@@ -1000,7 +999,7 @@ namespace Sudoku
             this.richTextBox59.Size = new System.Drawing.Size(40, 40);
             this.richTextBox59.TabIndex = 58;
             this.richTextBox59.Text = "";
-            this.richTextBox59.UseWaitCursor = true;
+            this.richTextBox59.TextChanged += new System.EventHandler(this.ValueChanged);
             // 
             // richTextBox60
             // 
@@ -1015,7 +1014,7 @@ namespace Sudoku
             this.richTextBox60.Size = new System.Drawing.Size(40, 40);
             this.richTextBox60.TabIndex = 59;
             this.richTextBox60.Text = "";
-            this.richTextBox60.UseWaitCursor = true;
+            this.richTextBox60.TextChanged += new System.EventHandler(this.ValueChanged);
             // 
             // richTextBox61
             // 
@@ -1030,7 +1029,7 @@ namespace Sudoku
             this.richTextBox61.Size = new System.Drawing.Size(40, 40);
             this.richTextBox61.TabIndex = 60;
             this.richTextBox61.Text = "";
-            this.richTextBox61.UseWaitCursor = true;
+            this.richTextBox61.TextChanged += new System.EventHandler(this.ValueChanged);
             // 
             // richTextBox62
             // 
@@ -1045,7 +1044,7 @@ namespace Sudoku
             this.richTextBox62.Size = new System.Drawing.Size(40, 40);
             this.richTextBox62.TabIndex = 61;
             this.richTextBox62.Text = "";
-            this.richTextBox62.UseWaitCursor = true;
+            this.richTextBox62.TextChanged += new System.EventHandler(this.ValueChanged);
             // 
             // richTextBox63
             // 
@@ -1060,7 +1059,7 @@ namespace Sudoku
             this.richTextBox63.Size = new System.Drawing.Size(40, 40);
             this.richTextBox63.TabIndex = 62;
             this.richTextBox63.Text = "";
-            this.richTextBox63.UseWaitCursor = true;
+            this.richTextBox63.TextChanged += new System.EventHandler(this.ValueChanged);
             // 
             // richTextBox64
             // 
@@ -1075,7 +1074,7 @@ namespace Sudoku
             this.richTextBox64.Size = new System.Drawing.Size(40, 40);
             this.richTextBox64.TabIndex = 63;
             this.richTextBox64.Text = "";
-            this.richTextBox64.UseWaitCursor = true;
+            this.richTextBox64.TextChanged += new System.EventHandler(this.ValueChanged);
             // 
             // richTextBox65
             // 
@@ -1090,7 +1089,7 @@ namespace Sudoku
             this.richTextBox65.Size = new System.Drawing.Size(40, 40);
             this.richTextBox65.TabIndex = 64;
             this.richTextBox65.Text = "";
-            this.richTextBox65.UseWaitCursor = true;
+            this.richTextBox65.TextChanged += new System.EventHandler(this.ValueChanged);
             // 
             // richTextBox66
             // 
@@ -1105,7 +1104,7 @@ namespace Sudoku
             this.richTextBox66.Size = new System.Drawing.Size(40, 40);
             this.richTextBox66.TabIndex = 65;
             this.richTextBox66.Text = "";
-            this.richTextBox66.UseWaitCursor = true;
+            this.richTextBox66.TextChanged += new System.EventHandler(this.ValueChanged);
             // 
             // richTextBox67
             // 
@@ -1120,7 +1119,7 @@ namespace Sudoku
             this.richTextBox67.Size = new System.Drawing.Size(40, 40);
             this.richTextBox67.TabIndex = 66;
             this.richTextBox67.Text = "";
-            this.richTextBox67.UseWaitCursor = true;
+            this.richTextBox67.TextChanged += new System.EventHandler(this.ValueChanged);
             // 
             // richTextBox68
             // 
@@ -1135,7 +1134,7 @@ namespace Sudoku
             this.richTextBox68.Size = new System.Drawing.Size(40, 40);
             this.richTextBox68.TabIndex = 67;
             this.richTextBox68.Text = "";
-            this.richTextBox68.UseWaitCursor = true;
+            this.richTextBox68.TextChanged += new System.EventHandler(this.ValueChanged);
             // 
             // richTextBox69
             // 
@@ -1150,7 +1149,7 @@ namespace Sudoku
             this.richTextBox69.Size = new System.Drawing.Size(40, 40);
             this.richTextBox69.TabIndex = 68;
             this.richTextBox69.Text = "";
-            this.richTextBox69.UseWaitCursor = true;
+            this.richTextBox69.TextChanged += new System.EventHandler(this.ValueChanged);
             // 
             // richTextBox70
             // 
@@ -1165,7 +1164,7 @@ namespace Sudoku
             this.richTextBox70.Size = new System.Drawing.Size(40, 40);
             this.richTextBox70.TabIndex = 69;
             this.richTextBox70.Text = "";
-            this.richTextBox70.UseWaitCursor = true;
+            this.richTextBox70.TextChanged += new System.EventHandler(this.ValueChanged);
             // 
             // richTextBox71
             // 
@@ -1180,7 +1179,7 @@ namespace Sudoku
             this.richTextBox71.Size = new System.Drawing.Size(40, 40);
             this.richTextBox71.TabIndex = 70;
             this.richTextBox71.Text = "";
-            this.richTextBox71.UseWaitCursor = true;
+            this.richTextBox71.TextChanged += new System.EventHandler(this.ValueChanged);
             // 
             // richTextBox72
             // 
@@ -1195,7 +1194,7 @@ namespace Sudoku
             this.richTextBox72.Size = new System.Drawing.Size(40, 40);
             this.richTextBox72.TabIndex = 71;
             this.richTextBox72.Text = "";
-            this.richTextBox72.UseWaitCursor = true;
+            this.richTextBox72.TextChanged += new System.EventHandler(this.ValueChanged);
             // 
             // richTextBox73
             // 
@@ -1210,7 +1209,7 @@ namespace Sudoku
             this.richTextBox73.Size = new System.Drawing.Size(40, 40);
             this.richTextBox73.TabIndex = 72;
             this.richTextBox73.Text = "";
-            this.richTextBox73.UseWaitCursor = true;
+            this.richTextBox73.TextChanged += new System.EventHandler(this.ValueChanged);
             // 
             // richTextBox74
             // 
@@ -1225,7 +1224,7 @@ namespace Sudoku
             this.richTextBox74.Size = new System.Drawing.Size(40, 40);
             this.richTextBox74.TabIndex = 73;
             this.richTextBox74.Text = "";
-            this.richTextBox74.UseWaitCursor = true;
+            this.richTextBox74.TextChanged += new System.EventHandler(this.ValueChanged);
             // 
             // richTextBox75
             // 
@@ -1240,7 +1239,7 @@ namespace Sudoku
             this.richTextBox75.Size = new System.Drawing.Size(40, 40);
             this.richTextBox75.TabIndex = 74;
             this.richTextBox75.Text = "";
-            this.richTextBox75.UseWaitCursor = true;
+            this.richTextBox75.TextChanged += new System.EventHandler(this.ValueChanged);
             // 
             // richTextBox76
             // 
@@ -1255,7 +1254,7 @@ namespace Sudoku
             this.richTextBox76.Size = new System.Drawing.Size(40, 40);
             this.richTextBox76.TabIndex = 75;
             this.richTextBox76.Text = "";
-            this.richTextBox76.UseWaitCursor = true;
+            this.richTextBox76.TextChanged += new System.EventHandler(this.ValueChanged);
             // 
             // richTextBox77
             // 
@@ -1270,7 +1269,7 @@ namespace Sudoku
             this.richTextBox77.Size = new System.Drawing.Size(40, 40);
             this.richTextBox77.TabIndex = 76;
             this.richTextBox77.Text = "";
-            this.richTextBox77.UseWaitCursor = true;
+            this.richTextBox77.TextChanged += new System.EventHandler(this.ValueChanged);
             // 
             // richTextBox78
             // 
@@ -1285,7 +1284,7 @@ namespace Sudoku
             this.richTextBox78.Size = new System.Drawing.Size(40, 40);
             this.richTextBox78.TabIndex = 77;
             this.richTextBox78.Text = "";
-            this.richTextBox78.UseWaitCursor = true;
+            this.richTextBox78.TextChanged += new System.EventHandler(this.ValueChanged);
             // 
             // richTextBox79
             // 
@@ -1300,7 +1299,7 @@ namespace Sudoku
             this.richTextBox79.Size = new System.Drawing.Size(40, 40);
             this.richTextBox79.TabIndex = 78;
             this.richTextBox79.Text = "";
-            this.richTextBox79.UseWaitCursor = true;
+            this.richTextBox79.TextChanged += new System.EventHandler(this.ValueChanged);
             // 
             // richTextBox80
             // 
@@ -1315,7 +1314,7 @@ namespace Sudoku
             this.richTextBox80.Size = new System.Drawing.Size(40, 40);
             this.richTextBox80.TabIndex = 79;
             this.richTextBox80.Text = "";
-            this.richTextBox80.UseWaitCursor = true;
+            this.richTextBox80.TextChanged += new System.EventHandler(this.ValueChanged);
             // 
             // richTextBox81
             // 
@@ -1330,7 +1329,7 @@ namespace Sudoku
             this.richTextBox81.Size = new System.Drawing.Size(40, 40);
             this.richTextBox81.TabIndex = 80;
             this.richTextBox81.Text = "";
-            this.richTextBox81.UseWaitCursor = true;
+            this.richTextBox81.TextChanged += new System.EventHandler(this.ValueChanged);
             // 
             // button1
             // 
@@ -1433,6 +1432,7 @@ namespace Sudoku
             this.Name = "Form1";
             this.Text = "Sudoku";
             this.Load += new System.EventHandler(this.Form1_Load);
+            this.TextChanged += new System.EventHandler(this.ValueChanged);
             this.ResumeLayout(false);
 
         }

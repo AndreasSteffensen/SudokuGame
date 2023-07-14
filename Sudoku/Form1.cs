@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.Drawing.Imaging;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -15,10 +16,8 @@ namespace Sudoku
         public Form1()
         {
             InitializeComponent();
+            string[,] SubMatix = new string[3, 3];
         }
-
-        string[,] SubMatix = new string[3, 3];
-        SubMatix[0, 0] = form1.richTextBox1.Text;
 
         private void Form1_Load(object sender, EventArgs e)
         {
@@ -105,12 +104,10 @@ namespace Sudoku
             richTextBox81.SelectionAlignment = HorizontalAlignment.Center;
         }
 
-        private void richTextBox1_TextChanged(object sender, EventArgs e)
+        private void ValueChanged(object sender, EventArgs e)
         {
 
         }
-
-
 
         private void checkBox1_CheckedChanged(object sender, EventArgs e)
         {
