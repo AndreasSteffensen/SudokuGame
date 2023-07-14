@@ -1,0 +1,11 @@
+C:\Users\ast\Documents\GitHub\Sudoku\bin\Debug\Sudoku.exe.config
+C:\Users\ast\Documents\GitHub\Sudoku\bin\Debug\Sudoku.exe
+C:\Users\ast\Documents\GitHub\Sudoku\bin\Debug\Sudoku.pdb
+C:\Users\ast\Documents\GitHub\Sudoku\obj\Debug\Sudoku.csproj.AssemblyReference.cache
+C:\Users\ast\Documents\GitHub\Sudoku\obj\Debug\Sudoku.csproj.SuggestedBindingRedirects.cache
+C:\Users\ast\Documents\GitHub\Sudoku\obj\Debug\Sudoku.Form1.resources
+C:\Users\ast\Documents\GitHub\Sudoku\obj\Debug\Sudoku.Properties.Resources.resources
+C:\Users\ast\Documents\GitHub\Sudoku\obj\Debug\Sudoku.csproj.GenerateResource.cache
+C:\Users\ast\Documents\GitHub\Sudoku\obj\Debug\Sudoku.csproj.CoreCompileInputs.cache
+C:\Users\ast\Documents\GitHub\Sudoku\obj\Debug\Sudoku.exe
+C:\Users\ast\Documents\GitHub\Sudoku\obj\Debug\Sudoku.pdb
